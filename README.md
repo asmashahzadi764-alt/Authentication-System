@@ -15,7 +15,7 @@ It includes:
 - MySQL / MariaDB
 - XAMPP (Apache + MySQL)
 - HTML + CSS
-- Store Procedures
+- Stored Procedures
 
 ---
 
