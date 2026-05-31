@@ -21,8 +21,9 @@ if(isset($_POST['login'])){
         $_SESSION['user_id'] = $user['id'];
         $_SESSION['fullname'] = $user['fullname'];
 
-        $msg = "<p class='message-success'>Login Successful! 🎉 Welcome ".$user['fullname']."</p>";
-    }
+        header("Location: dashboard.php");
+exit();
+        }
     else{
         $msg = "<p class='message-error'>Invalid Email or Password ❌</p>";
     }
